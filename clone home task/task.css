@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* section1*/
+.section1{
+     background-image: url("4.jpg")
+   
+}
+/* section1.2*/
+.h11{
+    color: white;
+}
+.img1{
+    margin: 10px;
+    border: 1px solid black;
+}
+.btn{
+    margin: 10px;
+
+}
+.btn{
+    margin: 10px;
+}
+.btn{
+    margin: 10px;
+}
+.btn{
+    margin: 10px;
+}
+.fndf{
+    background-color: rgb(75, 97, 73);
+}
+/* section7*/
+.section7 {
+    background-color: rgb(201, 90, 90);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20px;
+    }
+
+    .ff {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+    }
+
+    .ff > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:rgb(20, 19, 19);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    text-align:center;
+    }
+
+    .ff > div > img{
+    filter:invert(1);
+    width:100px;
+    }
+
+    .ff > input,
+    form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    background-color: rgb(13, 14, 19);
+    border-radius: 4px;
+    display: block;
+    width: 70vw;
+    }
+
+    .ff > textarea{
+    height:100px;
+    resize:none;
+    }
+
+    .ff > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+    }
+
+    .ff > input[type="submit"]:hover {
+    background-color: #555;
+    }
+    

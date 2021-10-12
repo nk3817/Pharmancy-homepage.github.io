@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section0 */
+.over1{
+    position: relative;
+}
+.over2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
